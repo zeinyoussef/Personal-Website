@@ -1,0 +1,36 @@
+﻿.title {
+    text-align: center;
+    padding: 30px
+}
+
+.sub-title {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.column {
+    float: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+
+.left {
+    width: 35%;
+}
+
+.right {
+    width: 65%;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
