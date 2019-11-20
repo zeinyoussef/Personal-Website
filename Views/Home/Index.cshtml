@@ -2,7 +2,54 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="~/css/home.css" />
+</head>
+
+
+<div class="graduation">
+    <img src="~/Images/GradPic.jpg" alt="Grad Pic"/>
+</div>
+<p>
+    Hello, my name is Zein Youssef. I am an aspiring software developer that loves to learn! I have worked on many forms of software include mobile apps,
+    web applications, video game development and even embedded software. Click on <a href="@Url.Content("pdf/Youssef, Zein.pdf")">My Resume</a> to learn
+    more about me!
+</p>
+
+
+<div class="main-title">
+    <h2>Projects</h2>    
+</div>
+<div class="row">
+    <div class="column left">
+        <b>Robotic Leader Follower</b>
+        <p>January 2019 - April 2019</p>
+    </div>
+    <div class="column right">
+        <p>
+            I worked with a team for my senior project to develop a system of semi-autonomous that could follow a vehicle controlled by a
+            user. We developed the system in Python using Raspberry Pi 3s. For the project me and my team used OpenCV, an open source computer
+            vision library in order to allow our vehicles to interpret camera data.
+        </p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="column left">
+        <b>Xbox Game</b>
+        <p>September 2019 - October 2019</p>
+    </div>
+    <div class="column right">
+        <p>
+            I have built the prototype for a 2D, 4-player game that can be played on the Xbox One. The game was built using the Unity Game engine
+            and was built using C# as the primary programming language.
+        </p>
+    </div>
+</div>
+
+<div class="social-media">
+    <a href="https://www.linkedin.com/in/zein-al-abbedine-youssef-3788b9160/"><img src="~/Images/linkedin.png" alt="Linkedin Logo" /></a>
+    <a href="https://github.com/zeinyoussef"><img src="~/Images/GitHub-Mark.png" alt="Github Logo" /></a>
+    <a href="https://www.facebook.com/zein.youssef.7"><img src="~/Images/facebook.png" alt="Facebook Logo" /></a>
 </div>

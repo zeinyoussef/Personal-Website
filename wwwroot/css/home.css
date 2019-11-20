@@ -1,0 +1,45 @@
+﻿.graduation img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+
+.column {
+    float: left;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 10px;
+    padding-top: 50px;
+}
+
+.left {
+    width: 40%;
+}
+
+.right {
+    width: 60%;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.social-media {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+}
+
+.social-media img {
+    width: 100px;
+    height: 100px;
+}
+
+.main-title {
+    text-align: center;
+    padding-top: 20px;
+}
