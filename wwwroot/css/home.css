@@ -1,4 +1,11 @@
-﻿.column {
+﻿.graduation img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+
+.column {
     float: left;
     padding-left: 0px;
     padding-right: 0px;
